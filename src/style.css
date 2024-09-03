@@ -2,7 +2,7 @@
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 40%;
 }
 
 body {
@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  max-width: 40%;
-  max-height: 80%;
+  max-width: 25%;
+  max-height: 50%;
   background-color: #dcd6f7;
   margin: 150px auto;
   padding: 30px;
@@ -75,6 +75,8 @@ h1 {
 
 .temp {
   font-size: 42px;
+  position: relative;
+  text-align: right;
 }
 
 .celsius {
