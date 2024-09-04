@@ -12,10 +12,10 @@ body {
 
 .container {
   max-width: 25%;
-  max-height: 50%;
+  max-height: 80%;
   background-color: #dcd6f7;
-  margin: 150px auto;
-  padding: 30px;
+  margin: 50px auto;
+  padding: 35px;
   border: 2px solid #a6b1e1;
   border-radius: 20px;
 }
@@ -23,7 +23,7 @@ body {
 .box {
   display: block;
   justify-content: left;
-  margin: 0;
+  margin: 0 auto;
 }
 
 #citySearch {
@@ -61,7 +61,7 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -76,7 +76,6 @@ h1 {
 .temp {
   font-size: 42px;
   position: relative;
-  text-align: right;
 }
 
 .celsius {
@@ -90,6 +89,8 @@ h1 {
 .paragraph {
   font-family: monospace;
   font-size: 12px;
+  margin: 4%;
+  margin-top: -8%;
 }
 
 .time {
@@ -120,7 +121,9 @@ ul {
 }
 
 footer {
-  text-align: center;
-  margin: 20px auto;
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  align-self: center;
+  margin: 100px 50px;
+  margin-top: 0px;
 }
